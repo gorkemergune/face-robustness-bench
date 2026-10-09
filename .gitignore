@@ -1,0 +1,23 @@
+# --- Private data: never commit -------------------------------------------
+# Photos (raw + converted), name mapping, LFW impostors
+data/
+# Raw scores, per-image CSVs, embedding / VLM answer caches, run logs
+results/
+*.log
+
+# Person-specific reports and label sheets (kept locally only).
+# The public summary is docs/BENCHMARK_RAPORU.md (aggregate numbers only).
+docs/HOCA_RAPORU.md
+docs/RAPOR.md
+docs/RESULTS.md
+docs/DURUM_RAPORU.md
+docs/*_labels.csv
+
+# --- Environment / build --------------------------------------------------
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+.DS_Store

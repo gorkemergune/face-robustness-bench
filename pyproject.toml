@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "frbench"
+version = "0.1.0"
+description = "Face recognition robustness benchmark (makeup, filters, effects, botox)."
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+dependencies = [
+    "insightface>=0.7.3",
+    "onnxruntime>=1.17",
+    "opencv-python-headless>=4.8",
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "pillow>=10.0",
+]
+
+[project.optional-dependencies]
+heic = ["pillow-heif>=0.16"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+frbench = "frbench.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+markers = [
+    "real_encode: use the real image encoder in Qwen tests",
+    "model: needs the InsightFace buffalo_l weights in ~/.insightface (skipped otherwise)",
+]
+filterwarnings = ["ignore::FutureWarning", "ignore::DeprecationWarning"]

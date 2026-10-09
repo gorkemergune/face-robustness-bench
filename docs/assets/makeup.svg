@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 270" width="200" height="270" role="img" aria-label="Makeup: heavy makeup (illustration)">
+<defs>
+  <clipPath id="frame-makeup"><rect x="8" y="8" width="184" height="200" rx="14"/></clipPath>
+  
+</defs>
+<rect width="200" height="270" rx="18" fill="#FFFFFF"/>
+<rect x="8" y="8" width="184" height="200" rx="14" fill="#F3E8FB"/>
+<g clip-path="url(#frame-makeup)"><g transform="translate(0.0 0) translate(100 120) scale(1.0) translate(-100 -120)">
+  <rect x="84" y="158" width="32" height="34" rx="6" fill="#F1C7A3"/>
+  <path d="M40 240 Q46 186 100 182 Q154 186 160 240 Z" fill="#6C8EBF"/>
+  <ellipse cx="47" cy="112" rx="9" ry="14" fill="#F1C7A3"/>
+  <ellipse cx="153" cy="112" rx="9" ry="14" fill="#F1C7A3"/>
+  <ellipse cx="100" cy="108" rx="54" ry="64" fill="#F1C7A3"/>
+  <ellipse cx="82" cy="95" rx="15" ry="8" fill="#8E5CC2" opacity=".55"/><ellipse cx="118" cy="95" rx="15" ry="8" fill="#8E5CC2" opacity=".55"/><ellipse cx="70" cy="126" rx="12" ry="7" fill="#E57373" opacity=".45"/><ellipse cx="130" cy="126" rx="12" ry="7" fill="#E57373" opacity=".45"/>
+  <path d="M46 104 Q44 44 100 40 Q156 44 154 104 Q146 70 120 62 Q96 74 64 70 Q52 82 46 104 Z" fill="#4A3426"/>
+  <path d="M68 86 Q82 76 95 84 M105 84 Q118 76 132 86" stroke="#3B2A20" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <ellipse cx="82" cy="102" rx="10" ry="7" fill="#fff"/>
+  <ellipse cx="118" cy="102" rx="10" ry="7" fill="#fff"/>
+  <circle cx="82" cy="102" r="5" fill="#5B4636"/>
+  <circle cx="118" cy="102" r="5" fill="#5B4636"/>
+  <circle cx="83.5" cy="100.5" r="1.6" fill="#fff"/>
+  <circle cx="119.5" cy="100.5" r="1.6" fill="#fff"/>
+  <path d="M100 108 Q96 122 100 126 Q104 127 106 124" stroke="#C99474" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M84 140 Q92 134 100 138 Q108 134 116 140 Q100 154 84 140 Z" fill="#C2185B"/>
+  <path d="M71 100 L64 96 M129 100 L136 96" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+</g></g>
+<text x="100" y="236" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1F2937">Makeup</text>
+<text x="100" y="256" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6B7280">heavy makeup</text>
+</svg>

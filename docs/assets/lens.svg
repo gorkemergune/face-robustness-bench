@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 270" width="200" height="270" role="img" aria-label="Lens: colored contact lenses (illustration)">
+<defs>
+  <clipPath id="frame-lens"><rect x="8" y="8" width="184" height="200" rx="14"/></clipPath>
+  
+</defs>
+<rect width="200" height="270" rx="18" fill="#FFFFFF"/>
+<rect x="8" y="8" width="184" height="200" rx="14" fill="#E7F1FC"/>
+<g clip-path="url(#frame-lens)"><g transform="translate(0.0 0) translate(100 120) scale(1.0) translate(-100 -120)">
+  <rect x="84" y="158" width="32" height="34" rx="6" fill="#F1C7A3"/>
+  <path d="M40 240 Q46 186 100 182 Q154 186 160 240 Z" fill="#6C8EBF"/>
+  <ellipse cx="47" cy="112" rx="9" ry="14" fill="#F1C7A3"/>
+  <ellipse cx="153" cy="112" rx="9" ry="14" fill="#F1C7A3"/>
+  <ellipse cx="100" cy="108" rx="54" ry="64" fill="#F1C7A3"/>
+  
+  <path d="M46 104 Q44 44 100 40 Q156 44 154 104 Q146 70 120 62 Q96 74 64 70 Q52 82 46 104 Z" fill="#4A3426"/>
+  <path d="M70 86 Q82 79 94 85 M106 85 Q118 79 130 86" stroke="#3B2A20" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <ellipse cx="82" cy="102" rx="10" ry="7" fill="#fff"/>
+  <ellipse cx="118" cy="102" rx="10" ry="7" fill="#fff"/>
+  <circle cx="82" cy="102" r="5" fill="#1E88E5"/>
+  <circle cx="118" cy="102" r="5" fill="#1E88E5"/>
+  <circle cx="83.5" cy="100.5" r="1.6" fill="#fff"/>
+  <circle cx="119.5" cy="100.5" r="1.6" fill="#fff"/>
+  <path d="M100 108 Q96 122 100 126 Q104 127 106 124" stroke="#C99474" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M84 140 Q100 152 116 140" stroke="#9A4B3C" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <circle cx="82" cy="102" r="6.5" fill="none" stroke="#64B5F6" stroke-width="1.5"/><circle cx="118" cy="102" r="6.5" fill="none" stroke="#64B5F6" stroke-width="1.5"/>
+</g></g>
+<text x="100" y="236" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1F2937">Lens</text>
+<text x="100" y="256" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6B7280">colored contact lenses</text>
+</svg>
